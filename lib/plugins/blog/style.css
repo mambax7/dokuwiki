@@ -1,0 +1,14 @@
+div.dokuwiki div.newentry_form {
+  clear: both;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+div.dokuwiki #blog__newentry_form input.edit {
+  width: 95%;
+}
+
+div.dokuwiki tr.draft,
+div.dokuwiki div.draft {
+  opacity: 0.5;
+}

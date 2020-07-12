@@ -1,0 +1,1 @@
+Pas de pagina aan en klik op ''Opslaan''. Bekijk zeker de [[doku>nl:syntax|hulppagina]] om de Wiki syntax te leren. Pas alleen de pagina aan als hij **verbeterd** kan worden. Spelen kan steeds in de  [[playground:playground|zandbak]].

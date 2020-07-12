@@ -1,0 +1,14 @@
+Oct 29th, 2006
+Minor bug fixes which could cause failure of global search
+
+June 26th, 2006
+1 Update to dokuwiki release of March 9th, 2006
+2 Make search work for XOOPS
+
+Jan 29th, 2006
+Compatible with XOOPS 2.0, 2.2, 2.3
+
+Sept 29th, 2005
+1 Added discussion
+2 Bugfix for username encoding conversion (reported by wingoffire @ Xoops China)
+3 Xoops-wide search

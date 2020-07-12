@@ -1,0 +1,79 @@
+/**
+ * CSS Style for DokuWiki GTD Plugin
+ *
+ * @author Michael Klier <chi@chimeric.de> 
+ */
+
+div.dokuwiki div.plugin_gtd_box {
+  border: 1px solid __border__;
+  margin-bottom: 1em;
+}
+
+div.dokuwiki h2.plugin_gtd_context {
+  border: none;
+  margin: 0 0 0.5em 0;
+  padding: 0.3em;
+  border-bottom: 1px solid __border__;
+  background-color: __background_alt__;
+}
+
+div.dokuwiki span.plugin_gtd_project {
+  font-weight: bold;
+  border: 1px solid __border__;
+  background: __background_neu__;
+  display: block;
+  padding: 0.5em;
+}
+
+div.dokuwiki div.plugin_gtd_box ul.plugin_gtd_list {
+  list-style: none;
+  margin: 0 0.8em 0.8em 0.8em;
+}
+
+div.dokuwiki div.plugin_gtd_box ul.plugin_gtd_project {
+  list-style: none;
+  margin: 0 0 0.8em 0.5em;
+}
+
+div.dokuwiki div.plugin_gtd_box ul.plugin_gtd_project li {
+  padding: 0.3em;
+  border: 1px solid __border__;
+  margin-bottom:0.2em; /*edit jayjay*/
+  /*border-top: none;/*edit jayjay*/
+}
+
+div.dokuwiki div.plugin_gtd_box li.plugin_gtd_project {
+  background-image: none; /*edit jayjay - remove dot*/
+  margin-bottom: 0.5em;
+}
+
+div.dokuwiki li.plugin_gtd_item del {
+  color: __text_neu__;
+}
+
+div.dokuwiki li.plugin_gtd_due,
+div.dokuwiki li.plugin_gtd_warn,
+div.dokuwiki li.plugin_gtd_pass,
+div.dokuwiki li.plugin_gtd_upco {
+  padding-left: 25px !important;
+}
+
+div.dokuwiki li.plugin_gtd_due {
+  background: #ffd9d9 url(images/status-due.png) no-repeat 5px 6px;
+}
+
+div.dokuwiki li.plugin_gtd_warn {
+  background: #feffcd url(images/status-warn.png) no-repeat 5px 6px;
+}
+
+div.dokuwiki li.plugin_gtd_pass {
+  background: #e3f9ff url(images/status-pass.png) no-repeat 5px 6px;
+}
+
+div.dokuwiki li.plugin_gtd_upco {
+  background: url(images/status-upco.png) no-repeat 5px 6px;
+}
+
+/**
+ * vim:ts=2:sw=2:et:enc=utf-8:
+ */
